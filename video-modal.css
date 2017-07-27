@@ -30,8 +30,7 @@
   position: relative;
   display: block;
   height: 0;
-  padding-top: 25px;
-  padding-bottom: 54%;
+  padding-bottom: 56%;
 }
 @media (max-width: 480px) {
   .video-modal .video__wrapper {
@@ -58,14 +57,14 @@
 }
 @media (max-width: 768px) {
   .video-modal .video-modal__close {
-    top: 15px;
-    right: 15px;
+    top: -35px;
+    right: -3px;
   }
 }
 .video-modal .video-modal__close:before, .video-modal .video-modal__close:after {
   content: "";
   position: absolute;
-  top: calc(50% - 1px);
+  top: calc(50% + 4px);
   right: 0;
   left: 0;
   display: block;
@@ -80,6 +79,7 @@
 .video-modal .video-modal__close:after {
   transform: rotate(135deg);
 }
+
 .video-modal--active {
   height: 100%;
   overflow: hidden;
