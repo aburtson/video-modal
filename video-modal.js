@@ -9,7 +9,6 @@ function videoModal() {
     var $body = $('body');
 
     $('[data-video]').on('click', function(){
-        console.log('data-video click');
         var videoAttr = $(this).attr('data-video');
         var videoModal = $(
             '<div class="video-modal">' +
