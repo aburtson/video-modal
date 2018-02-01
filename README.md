@@ -1,8 +1,8 @@
-#Video modal
+# Video modal
 
 This plugin adds video modal functionality using either YouTube or Wistia videos.
 
-##Setup
+## Setup
 
 1. _Dependencies:_ verify that the jQuery is included in your project.
 2. Include **video-modal.js** in your JS directory.
